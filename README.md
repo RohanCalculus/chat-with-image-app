@@ -2,8 +2,6 @@
 
 A powerful web application that lets users **upload images** and **ask questions about them**, leveraging state-of-the-art machine learning models for image captioning and object detection, and combining it with the conversational capabilities of **ChatGPT** to provide meaningful and context-aware responses.
 
----
-
 ## 🚀 Features
 
 - **Image Captioning**: Generates a descriptive caption summarizing the content of an uploaded image using the [BLIP Image Captioning Model](https://huggingface.co/Salesforce/blip-image-captioning-large).
@@ -13,8 +11,6 @@ A powerful web application that lets users **upload images** and **ask questions
 - **Interactive UI**: Built with **Streamlit**, providing an intuitive interface for uploading images and chatting with the AI.
 
 <img src="media/chat-image-video.gif" style="width: 100%;">
-
----
 
 ## 🛠️ Technologies Used
 
@@ -27,7 +23,6 @@ A powerful web application that lets users **upload images** and **ask questions
   - [BLIP](https://huggingface.co/Salesforce/blip-image-captioning-large) for image captioning.
   - [DETR](https://huggingface.co/facebook/detr-resnet-50) for object detection.
 
----
 
 ## 🧑‍💻 How to Run the Project
 
@@ -60,13 +55,11 @@ A powerful web application that lets users **upload images** and **ask questions
    streamlit run main.py
    ```
    
----
 
 ## 📹 Video Demo
 
 https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 
----
 
 ## ✨ Demo Images
 
@@ -77,7 +70,6 @@ https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 ### 2) Chat History with the Uploaded Image
 ![UPLOAD IMAGE](media/2.png)
 
----
 
 ## 🤖 Models in Action
 
@@ -88,7 +80,6 @@ https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 - **OpenAI GPT-3.5**:
   - Generates intelligent, conversational responses.
 
----
 
 ## 🎯 Use Cases
 
@@ -97,20 +88,17 @@ https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 - **Education**: Visual question answering for learning materials.
 - **Creative Projects**: Chatbot assistance for graphic design or artwork.
 
----
 
 ## 🛡️Future Enhancements
 
 - Add support for **real-time image input** via webcam.
 - Extend to support multi-modal reasoning (e.g., videos or text+image queries).
 
----
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
 ## 🙌 Acknowledgments
 
@@ -118,4 +106,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Hugging Face](https://huggingface.co/) for providing pre-trained models.
 - [Streamlit](https://streamlit.io/) for simplifying UI development.
 
----
