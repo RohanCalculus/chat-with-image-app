@@ -12,9 +12,9 @@ A powerful web application that lets users **upload images** and **ask questions
 - **Memory-Aware Chat**: Retains the conversation history for a seamless chat experience.
 - **Interactive UI**: Built with **Streamlit**, providing an intuitive interface for uploading images and chatting with the AI.
 
----
-
 <img src="media/chat-image-video.gif" style="width: 100%;">
+
+---
 
 ## 🛠️ Technologies Used
 
