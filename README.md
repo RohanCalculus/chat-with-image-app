@@ -14,6 +14,8 @@ A powerful web application that lets users **upload images** and **ask questions
 
 ---
 
+<img src="media/chat-image-video.gif" style="width: 100%;">
+
 ## 🛠️ Technologies Used
 
 - **LangChain**: To combine tools and language models for dynamic responses.
