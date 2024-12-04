@@ -57,9 +57,7 @@ A powerful web application that lets users **upload images** and **ask questions
    ```bash
    streamlit run main.py
    ```
-
-5. **Upload an image** and start asking questions!
-
+   
 ---
 
 ## 📹 Video Demo
