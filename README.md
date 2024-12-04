@@ -68,6 +68,17 @@ https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 
 ---
 
+## ✨ Demo Images
+
+### 1) Upload an image of your choice
+
+![UPLOAD IMAGE](media/1.png)
+
+### 2) Chat History with the Uploaded Image
+![UPLOAD IMAGE](media/2.png)
+
+---
+
 ## 🤖 Models in Action
 
 - **BLIP (Image Captioning)**:
