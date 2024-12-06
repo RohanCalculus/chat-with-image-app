@@ -2,6 +2,8 @@
 
 A powerful web application that lets users **upload images** and **ask questions about them**, leveraging state-of-the-art machine learning models for image captioning and object detection, and combining it with the conversational capabilities of **ChatGPT** to provide meaningful and context-aware responses.
 
+Link of the deployed web app:- https://ask-an-image.streamlit.app/
+
 ## 🚀 Features
 
 - **Image Captioning**: Generates a descriptive caption summarizing the content of an uploaded image.
@@ -10,7 +12,7 @@ A powerful web application that lets users **upload images** and **ask questions
 - **Memory-Aware Chat**: Retains the conversation history for a seamless chat experience.
 - **Interactive UI**: Built with **Streamlit**, providing an intuitive interface for uploading images and chatting with the AI.
 
-https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
+https://github.com/user-attachments/assets/b68ac055-2070-4960-8755-aeb851af5bc0
 
 ## 🛠️ Technologies Used
 
