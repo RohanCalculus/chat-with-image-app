@@ -10,7 +10,7 @@
 
 A powerful web application that lets users **upload images** and **ask questions about them**, leveraging state-of-the-art machine learning models for image captioning and object detection, and combining it with the conversational capabilities of **ChatGPT** to provide meaningful and context-aware responses.
 
-Link of the deployed web app:- https://ask-an-image.streamlit.app/
+Link of the deployed web app:- [https://ask-an-image.streamlit.app/](https://ask-an-image.streamlit.app/?embed_options=dark_theme)
 
 ## 🚀 Features
 
