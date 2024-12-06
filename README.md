@@ -95,9 +95,7 @@ https://github.com/user-attachments/assets/b68ac055-2070-4960-8755-aeb851af5bc0
 
 ## 🛡️Future Enhancements
 
-- Add support for **real-time image input** via webcam.
-- Extend to support multi-modal reasoning (e.g., videos or text+image queries).
-
+- Fine tune the object detection model to tune on specific usecase.
 
 ## 📜 License
 
