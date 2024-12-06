@@ -4,13 +4,13 @@ A powerful web application that lets users **upload images** and **ask questions
 
 ## 🚀 Features
 
-- **Image Captioning**: Generates a descriptive caption summarizing the content of an uploaded image using the [BLIP Image Captioning Model](https://huggingface.co/Salesforce/blip-image-captioning-large).
-- **Object Detection**: Identifies objects in an image, including bounding boxes, class names, and confidence scores, using [DETR (DEtection TRansformer)](https://github.com/facebookresearch/detr).
-- **Dynamic Question Answering**: Combines detected objects and captions to provide intelligent, context-aware responses to user queries using [LangChain](https://langchain-langchain.vercel.app/).
+- **Image Captioning**: Generates a descriptive caption summarizing the content of an uploaded image.
+- **Object Detection**: Identifies objects in an image, including bounding boxes, class names, and confidence scores.
+- **Dynamic Question Answering**: Combines detected objects and captions to provide intelligent, context-aware responses to user queries.
 - **Memory-Aware Chat**: Retains the conversation history for a seamless chat experience.
 - **Interactive UI**: Built with **Streamlit**, providing an intuitive interface for uploading images and chatting with the AI.
 
-<img src="media/chat-image-video.gif" style="width: 100%;">
+https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
 
 ## 🛠️ Technologies Used
 
@@ -54,12 +54,6 @@ A powerful web application that lets users **upload images** and **ask questions
    ```bash
    streamlit run main.py
    ```
-   
-
-## 📹 Video Demo
-
-https://github.com/user-attachments/assets/c5531051-4601-4a59-9da8-39a4ede98a43
-
 
 ## ✨ Demo Images
 
