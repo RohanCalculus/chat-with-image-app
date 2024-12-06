@@ -4,6 +4,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from utils import ImageCaptionTool, ObjectDetectionTool
 from dotenv import load_dotenv
+import tempfile
 import os
 
 ##############################
@@ -45,6 +46,8 @@ agent = initialize_agent(
 ###### Helper Function #######
 ##############################
 
+import tempfile
+
 def extract_image_context(image):
     """
     Extract caption and detected objects from the image.
@@ -52,11 +55,17 @@ def extract_image_context(image):
     caption_tool = ImageCaptionTool()
     object_tool = ObjectDetectionTool()
 
-    # Generate caption
-    caption = caption_tool._run(image)
+    # Save the uploaded file temporarily
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as temp_file:
+        temp_file.write(image.read())
+        temp_file_path = temp_file.name
 
-    # Detect objects
-    detected_objects = object_tool._run(image)
+    # Generate caption and detect objects
+    caption = caption_tool._run(temp_file_path)
+    detected_objects = object_tool._run(temp_file_path)
+
+    # Clean up: Remove temporary file (optional, handled automatically on some systems)
+    os.unlink(temp_file_path)
 
     # Combine and format results
     return f"Caption: {caption}\nObjects detected:\n{detected_objects}"
