@@ -1,5 +1,13 @@
 # 🖼️ Chat with an Image
 
+
+[![Python](https://img.shields.io/badge/Python-blue)](https://www.python.org)
+[![LangChain](https://img.shields.io/badge/LangChain-gold)](https://github.com/hwchase17/langchain)
+[![Streamlit](https://img.shields.io/badge/Streamlit-green)](https://streamlit.io)
+[![OpenAI](https://img.shields.io/badge/OpenAI-blue)](https://openai.com)
+[![Transformers](https://img.shields.io/badge/Transformers-yellowgreen)](https://huggingface.co/transformers/)
+
+
 A powerful web application that lets users **upload images** and **ask questions about them**, leveraging state-of-the-art machine learning models for image captioning and object detection, and combining it with the conversational capabilities of **ChatGPT** to provide meaningful and context-aware responses.
 
 Link of the deployed web app:- https://ask-an-image.streamlit.app/
