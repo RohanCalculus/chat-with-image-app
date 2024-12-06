@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/b68ac055-2070-4960-8755-aeb851af5bc0
    ```
 
 3. **Add your OpenAI API Key**:
-   Go to your OPENAI account and get your API key and paste it in `.env_template`. Rename that file to `.env`
+   Go to your [OPENAI account and get your API key](https://platform.openai.com/api-keys) and paste it in `.env_template`. Rename that file to `.env`
    ```bash
    OPENAI_API_KEY=sk-proj-Isk-XXXX
    ```
