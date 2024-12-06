@@ -102,6 +102,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙌 Acknowledgments
 
+- [Inspired by Felipe's work](https://www.youtube.com/watch?v=71EOM5__vkI) - Chat with Image Tutorial.
 - [OpenAI](https://openai.com/) for GPT-3.5.
 - [Hugging Face](https://huggingface.co/) for providing pre-trained models.
 - [Streamlit](https://streamlit.io/) for simplifying UI development.
